@@ -1,0 +1,18 @@
+<div class="app-grid Room-grid">
+  <app-grid-room
+    *ngFor="let room of rooms; index as i"
+    [room]="room"
+    class="gc-t-{{ i }}"
+    title="The Chambre D'Hôte" 
+  />
+  <!-- link="./{{ i + 1 }}" -->
+
+  <app-grid-image 
+    *ngFor="let room of rooms; index as i"
+    class="gc-i-{{ i }}"
+    [src]="room.img" 
+    alt="front view of Vue Du Vallon, Bersac Sur Ravalier, Haute Vienne" 
+  />
+
+  <!-- link="./{{ i + 1 }}" -->
+</div>

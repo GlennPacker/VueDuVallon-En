@@ -1,0 +1,15 @@
+.locale-switcher {
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end;
+  min-height: 2rem;
+  
+  a.fi {
+    width:2rem;
+    height: 1.5rem;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin: .25rem;
+  }
+}

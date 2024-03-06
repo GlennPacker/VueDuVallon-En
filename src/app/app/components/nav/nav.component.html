@@ -1,0 +1,61 @@
+<mat-toolbar 
+  color="primary" 
+  *ngIf="!isPhone"
+  class="no-print"
+>
+  <a
+    class="header-logo logo" 
+    routerLink="/"
+  >
+    Vue Du Vallon
+  </a>
+  <div class="spacer"></div>
+
+  <a 
+    *ngFor="let route of routes"
+    mat-button 
+    class="nav-item"
+    [routerLink]="route.url" 
+    routerLinkActive="active" 
+    ariaCurrentWhenActive="page"
+  >
+    {{ route.label }}
+  </a>
+  <mat-icon 
+    class="pointer"
+    aria-hidden="false" 
+    aria-label="mail icon" 
+    fontIcon="mail"
+    (click)="navClick('contact')"
+  />
+</mat-toolbar>
+
+<mat-toolbar 
+  color="primary" 
+  *ngIf="isPhone"
+  class="no-print"
+>
+  <a
+    class="header-logo" 
+    routerLink="/"
+  >
+    Vue Du Vallon
+  </a>
+  <div class="spacer"></div>
+  <button mat-button [matMenuTriggerFor]="menu" class="mobile">
+    <mat-icon 
+      aria-label="Example menu icon" 
+      fontIcon="menu"
+    />
+  </button>
+  <mat-menu #menu="matMenu">
+  <button
+    mat-menu-item
+    *ngFor="let route of routes"
+    (click)="navClick(route.url)"
+    class="nav-item"
+  >
+    {{ route.label }}
+  </button>
+  </mat-menu>
+</mat-toolbar>

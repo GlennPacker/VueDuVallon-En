@@ -1,0 +1,40 @@
+.vue-de-vallon {
+  width: 100vw;
+  height: auto;
+}
+
+html {
+  --mat-toolbar-container-text-color: #292621 !important;
+  color: #292621 !important;;
+}
+
+.page-title {
+  font-size: 30px;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 943px) {
+  .page-caption {
+    padding-left: 5px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 944px) {
+  .page-header {
+    position: relative;
+    top: -27rem;
+    background-color: rgba(255,255,255, 0.75);
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 23px;
+    padding: 15px;
+
+    margin-bottom: -6rem;
+  }
+
+  h1.page-title {
+    margin-top: 0;
+  }
+}

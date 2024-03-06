@@ -1,0 +1,26 @@
+<div class="activity-container pl-1 pt-2 pb-1">
+  <app-search-bar title="Vue Du Vallon Chambre D'Hôte - Activities"
+                [searchCategories]="searchCategories"
+                (searchUpdated)="search($event)" />
+
+  <p>
+    Your hosts are happy to share their passions with you. From water based activities such as kayaking, windsurfing and paddle boarding to searching the brocantes and local markets for vintage treasure or running workshops or one to one crafting sessions. 
+  </p>
+  
+  <p>
+    We can also tell you about the best places to explore, to swim, to walk, to cycle and to eat in the local area.
+  </p>
+
+  <p>
+    For all water sports we have a range of equipment for hire with the option of a local guide, training is available.
+  </p>
+</div>
+
+
+<div class="activity-grid">
+  <app-cta *ngFor="let activity of activities"
+           [cta]="activity" />
+</div>
+<div class="subject-to-container pt-2">
+  * Availability subject to wind conditions on the day.
+</div>

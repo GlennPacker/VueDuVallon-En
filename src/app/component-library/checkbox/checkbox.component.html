@@ -1,0 +1,14 @@
+<div 
+  class="input-height"
+  [formGroup]="form"
+>
+  <mat-checkbox 
+    [formControlName]="prop"
+    (ngModelChange)="emitValue($event)">
+    {{ label}}
+  </mat-checkbox>
+  
+  <mat-hint>
+    {{ hint }} 
+  </mat-hint>
+</div>

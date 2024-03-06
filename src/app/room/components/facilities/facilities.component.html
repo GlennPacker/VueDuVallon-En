@@ -1,0 +1,18 @@
+<div class="facilities-container">
+  <h2 class="title">
+    Facilities and Services:
+  </h2>
+  <div class="facilities-grid">
+    <app-facility *ngFor="let facility of facilities" [facility]="facility" />
+  </div>
+
+  <h3>Sports</h3>
+  <div class="facilities-grid">
+    <app-facility *ngFor="let sport of sports" [facility]="sport" />
+  </div>
+
+  <h3>Transport</h3>
+  <div class="facilities-grid">
+    <app-facility *ngFor="let facility of transport" [facility]="facility" />
+  </div>
+</div>

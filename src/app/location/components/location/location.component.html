@@ -1,0 +1,16 @@
+<h1>
+  Vue Du Vallon Chambre D'Hôte Haute Vienne
+</h1>
+
+<app-search-bar
+  title="Places to go"
+  [searchCategories]="facilities"
+  (searchUpdated)="search($event)"
+/>
+
+<div class="location-grid">
+  <app-cta
+    *ngFor="let location of locations"
+    [cta]="location"
+  />
+</div>
