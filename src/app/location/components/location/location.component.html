@@ -1,12 +1,14 @@
-<h1>
-  Vue Du Vallon Chambre D'Hôte Haute Vienne
-</h1>
+<div class="pl-1 pt-2 pb-1">
+  <h1>
+    Vue Du Vallon Chambre D'Hôte Haute Vienne
+  </h1>
 
-<app-search-bar
-  title="Places to go"
-  [searchCategories]="facilities"
-  (searchUpdated)="search($event)"
-/>
+  <app-search-bar
+    title="Places to go"
+    [searchCategories]="facilities"
+    (searchUpdated)="search($event)"
+  />
+</div>
 
 <div class="location-grid">
   <app-cta

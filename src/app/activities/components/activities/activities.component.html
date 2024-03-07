@@ -1,7 +1,13 @@
 <div class="activity-container pl-1 pt-2 pb-1">
-  <app-search-bar title="Vue Du Vallon Chambre D'Hôte - Activities"
-                [searchCategories]="searchCategories"
-                (searchUpdated)="search($event)" />
+  <h1>
+    Vue Du Vallon Chambre D'Hôte Haute Vienne
+  </h1>
+
+  <app-search-bar 
+    title="Activities"
+    [searchCategories]="searchCategories"
+    (searchUpdated)="search($event)" 
+  />
 
   <p>
     Your hosts are happy to share their passions with you. From water based activities such as kayaking, windsurfing and paddle boarding to searching the brocantes and local markets for vintage treasure or running workshops or one to one crafting sessions. 
