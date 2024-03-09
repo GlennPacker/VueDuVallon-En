@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./photo-gallery.component.scss']
 })
 export class PhotoGalleryComponent {
-  photoData = [
+  public photoData = [
     'Bessines sur Gartempe',
     'Étang de Sagnat',
     'Gartempe near Bersac Sur Ravailier',
@@ -26,13 +26,12 @@ export class PhotoGalleryComponent {
     `Saint-Léger-la-Montagne`,
     `sup - stand up paddleboard`,
     `Vienne at Confolens`,
-    `vue de vallon bersac limoges`,
-    `vue de vallon bersac`,
+    `vue du vallon bersac limoges`,
+    `vue du vallon bersac`,
     `windsup`,
     `windsurfing`,
     `wing surfing and foil`,
     `Étang de la Brousse`,
   ];
-
   public photos = this.photoData.map(p => ({ src: `/assets/${p}.jpg`, alt: p }));
 }

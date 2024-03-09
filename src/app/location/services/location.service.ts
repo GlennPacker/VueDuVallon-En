@@ -118,7 +118,7 @@ const data: Location[] = [{
     activityIcon.views,
   ],
   paras: [
-    `Lac du pont à l'Age is 8mins away from Vue de Vallon and is our closest big lake.`,
+    `Lac du pont à l'Age is 8mins away from Vue du Vallon and is our closest big lake.`,
     `It is a great spot for hiking and taking in the views.`
   ]
 }, {
@@ -134,7 +134,7 @@ const data: Location[] = [{
     activityIcon.views,
   ],
   paras: [
-    `Saint Sulpice Laurière – Bois des Echelles is 10mins drive from Vue de Vallon and offers great views over the valley below.`,
+    `Saint Sulpice Laurière – Bois des Echelles is 10mins drive from Vue du Vallon and offers great views over the valley below.`,
     `It is a great spot for hiking, dog walking and paraglding (northerly winds).`
   ]
 }, {
@@ -150,7 +150,7 @@ const data: Location[] = [{
     activityIcon.views,
   ],
   paras: [
-    `Saint Sulpice Laurière is 9mins from Vue de Vallon and a favourite for many fishing.`,
+    `Saint Sulpice Laurière is 9mins from Vue du Vallon and a favourite for many fishing.`,
     `It is a great spot for hiking, dog walking and fishing.`
   ]
 },
@@ -223,7 +223,7 @@ const data: Location[] = [{
     activityIcon.shopping
   ],
   paras: [
-    'Vue de Vallon is a short car or train journey from the historic city of Limoges.  Famous for its fine porcelain, there is much to discover and explore.   The Musée National  Adrien Débouche is a must for anyone interested in this heritage, whilst also exploring exploring the exciting shopping, dining and entertainment on offer.'
+    'Vue du Vallon is a short car or train journey from the historic city of Limoges.  Famous for its fine porcelain, there is much to discover and explore.   The Musée National  Adrien Débouche is a must for anyone interested in this heritage, whilst also exploring exploring the exciting shopping, dining and entertainment on offer.'
   ]
 }, {
   id: 13,
@@ -262,7 +262,7 @@ const data: Location[] = [{
     activityIcon.windsurfing
   ],
   paras: [
-    `The Châtelus-le-Marcheix is 30 mins away from Vue de Vallon and is on the pilgrimage path of the Way of St. James.`,
+    `The Châtelus-le-Marcheix is 30 mins away from Vue du Vallon and is on the pilgrimage path of the Way of St. James.`,
     'This reservoir and beach offers water sports and great views.'
   ]
 }, {
