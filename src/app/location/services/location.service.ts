@@ -7,7 +7,7 @@ const data: Location[] = [{
   id: 1,
   alt: '',
   src: '/assets/Lac De Saint Pardoux - sky line.jpg',
-  title: 'Lake Saint Pardoux',
+  title: 'Lac De Saint Pardoux',
   facilities: [
     activityIcon.beach,
     activityIcon.cycling,
@@ -24,7 +24,7 @@ const data: Location[] = [{
     activityIcon.fishing,
   ],
   paras: [
-    'Lake Saint Pardoux 20mins away and has a beach',
+    'Lac de Saint Pardoux 20mins away and has a beach',
     'The lake is the is the largest in the local area and great for swimming, all watersports, hiking and cycling.'
   ]
 }, {
@@ -141,7 +141,7 @@ const data: Location[] = [{
   id: 8,
   alt: `Saint Sulpice Laurière - fishing lake`,
   src: '/assets/Saint Sulpice Laurière - fishing lake.jpg',
-  title: `Saint Sulpice Laurière (lake)`,
+  title: `Saint Sulpice Laurière (lac)`,
   facilities: [
     activityIcon.fishing,
     activityIcon.hiking,
