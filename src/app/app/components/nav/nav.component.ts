@@ -14,7 +14,6 @@ export class NavComponent implements OnInit {
     { url: '/photo-gallery', label: 'Photo Gallery'},
     { url: '/location', label: 'Attractions'},
     { url: '/activities', label: 'Activities'},
-    { url: '/booking', label: 'Reservations'},
   ]
 
   constructor(
