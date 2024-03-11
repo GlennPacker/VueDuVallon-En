@@ -41,7 +41,7 @@ const data: Location[] = [{
     activityIcon.views,
   ],
   paras: [
-    `The Gartempe is 7 mins away from the Chambre D'Hôte.`,
+    `The Gartempe is 7 mins away from the Chambres D'Hôtes.`,
     'The river is 205km long and offers hiking, nature trails and white water activities (subject to rain).'
   ]
 }, {
@@ -332,7 +332,7 @@ const data: Location[] = [{
     activityIcon.views
   ],
   paras: [
-    `The town of Confolens is an hours drive from the Chambre D'Hôte. It is a very pretty town with the Viene running through.`,
+    `The town of Confolens is an hours drive from the Chambres D'Hôtes. It is a very pretty town with the Viene running through.`,
     `The town offers several bars and good places to eat.`
   ]
 }

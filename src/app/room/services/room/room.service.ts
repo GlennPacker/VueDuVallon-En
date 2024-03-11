@@ -14,8 +14,8 @@ const data = [{
     'Valley View',
     'Sleeps 2',
   ],
-  img: `/assets/Chambre D'Hote - Chambre 1.jpg`,
-  alt: `Twin room in Chambre D'hôte in Bersac near a20 Limoges`,
+  img: `/assets/Chambres D'Hotes - Chambre 1.jpg`,
+  alt: `Twin room in Chambres D'hôtes in Bersac near a20 Limoges`,
 }, {
   room: 2,
   type: RoomType.double,
@@ -26,8 +26,8 @@ const data = [{
     'Valley View',
     'Sleeps 2',
   ],
-  img: `/assets/Chambre D'Hote - Chambre 2.jpg`,
-  alt: `Double room in Chambre D'hôte in Bersac near a20 Limoges, Haute Vienne`,
+  img: `/assets/Chambres D'Hotes - Chambre 2.jpg`,
+  alt: `Double room in Chambres D'hôtes in Bersac near a20 Limoges, Haute Vienne`,
 }, {
   room: 3,
   type: RoomType.family,
@@ -39,7 +39,7 @@ const data = [{
     'Sleeps 4',
   ],
   img: '/assets/room 3.jpg',
-  alt: `Family room in Chambre D'hôte near A20 Limoges, Haute Vienne`,
+  alt: `Family room in Chambres D'hôtes near A20 Limoges, Haute Vienne`,
 }, {
   room: 4,
   type: RoomType.double,
@@ -50,18 +50,18 @@ const data = [{
     'Garden View',
     'Sleeps 2',
   ],
-  img: `/assets/Chambre D'Hote - Chambre 4.jpg`,
+  img: `/assets/Chambres D'Hotes - Chambre 4.jpg`,
   moreImages: [
     { 
-      src: `/assets/Chambre D'Hote - Chambre 4 photo 2.jpg`,
+      src: `/assets/Chambres D'Hotes - Chambre 4 photo 2.jpg`,
       alt: 'Chambre 4 at Vue Du Vallon'
     },
     {
-     src: `/assets/Chambre D'Hote - Chambre 4 photo 3.jpg`,
-     alt: `Vue Du Vallon Chambre D'hôte room 4`
+     src: `/assets/Chambres D'Hotes - Chambre 4 photo 3.jpg`,
+     alt: `Vue Du Vallon Chambres D'hôtes room 4`
     }
   ],
-  alt: `Double room in Chambre D'hôte in Bersac Sur Ravailier near Limoges`,
+  alt: `Double room in Chambres D'hôtes in Bersac Sur Ravailier near Limoges`,
 }, {
   room: 5,
   type: RoomType.family,
@@ -83,7 +83,7 @@ const data = [{
       alt: `Room 5 Large Family Room`
     }
   ],
-  alt: `The Largest Family room at the Chambre D'hôte in Bersac Sur Ravalier near the A20 Limoges`,
+  alt: `The Largest Family room at the Chambres D'hôtes in Bersac Sur Ravalier near the A20 Limoges`,
 }] as Room[];
 
 @Injectable({
